@@ -2,11 +2,11 @@ macro_previousoffice: macro_previousoffice{
 compatible = "zmk,behavior-macro";
 label = "macro_previousoffice";
 #binding-cells = <0>;
-bindings = <&kt LEFT_WIN>, <&kp LEFT_ARROW>;
+bindings = <&kt LEFT_CONTROL>, <&kt LEFT_WIN>, <&kp LEFT_ARROW>, <&kt LEFT_WIN>, <&kt LEFT_CONTROL>;
 };
 macro_nextoffice: macro_nextoffice{
 compatible = "zmk,behavior-macro";
 label = "macro_nextoffice";
 #binding-cells = <0>;
-bindings = <&kt LEFT_CONTROL>, <&kt RIGHT_WIN>, <&kp RIGHT_ARROW>;
+bindings = <&kt LEFT_CONTROL>, <&kt LEFT_WIN>, <&kp RIGHT_ARROW>, <&kt LEFT_WIN>, <&kt LEFT_CONTROL>;
 };
