@@ -89,11 +89,11 @@
 
         layer_character {
             bindings = <
- &trans         &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans    &trans
- &trans         &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &kp LBKT
- &trans         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RBKT
- &trans  &kp BACKSLASH  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans    &trans
- &trans         &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans    &trans
+ &trans                &trans            &trans         &trans     &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans    &trans
+ &trans                &trans            &trans         &trans     &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &kp LBKT
+ &trans                &trans            &trans         &trans     &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RBKT
+ &trans  &kp NON_US_BACKSLASH  &kp GREATER_THAN  &kp BACKSLASH  &kp SLASH  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans    &trans
+ &trans                &trans            &trans         &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans    &trans
             >;
         };
 
