@@ -89,11 +89,11 @@
 
         layer_character {
             bindings = <
- &trans                &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans          &trans        &trans          &trans           &trans  &kp EQUAL  &kp EQUAL
- &trans                &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans          &trans        &trans          &trans           &trans     &trans   &kp LBKT
- &trans                &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans   &kp RBKT
- &trans  &kp NON_US_BACKSLASH  &trans  &trans  &trans  &trans                            &trans                  &trans                          &trans        &trans          &trans           &trans     &trans     &trans
- &trans                &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                        &trans          &trans           &trans     &trans     &trans
+ &trans                &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans          &trans          &trans        &trans           &trans  &kp EQUAL  &kp EQUAL
+ &trans                &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans          &trans          &trans        &trans           &trans     &trans   &kp LBKT
+ &trans                &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW     &trans   &kp RBKT
+ &trans  &kp NON_US_BACKSLASH  &trans  &trans  &trans  &trans                            &trans                  &trans                          &trans          &trans        &trans           &trans     &trans     &trans
+ &trans                &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans     &trans     &trans
             >;
         };
 
